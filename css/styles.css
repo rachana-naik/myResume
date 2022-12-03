@@ -1,0 +1,280 @@
+
+
+.left-container{
+  /* display: float; */
+  background-color: #FEFBE7;
+  height : 100%;
+  width : 30%;
+
+}
+
+
+.right-container {
+  /* display : flex; */
+  padding-left: 20px;
+  height : 100%;
+  width : 70%;
+}
+
+
+
+.intro1{
+  font-size: 16px;
+  margin : 0px auto 20px auto;
+}
+
+.intro2{
+  width : 95%;
+  margin : auto;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.skills-left{
+  text-align: left;
+  font-size: 20px;
+}
+.key-skills{
+  text-align: left;
+  font-size: 14px;
+  padding-left : 20px;
+  line-height:2;
+
+}
+
+.exp-summary{
+  width:90%;
+  margin : 0 0 20px 20px;
+  text-align : left;
+
+}
+
+.exp-leadership{
+  width:96%;
+  margin : 0 0 50px 0px;
+  text-align : left;
+  line-height: 2;
+  font-size: 15px;
+
+}
+
+.exp-overview{
+  width:90%;
+  margin : 0 0 0 20px;
+  text-align : left;
+  line-height: 2;
+
+}
+.align{
+  text-align: right;
+}
+
+.mgmt-pic{
+  width: 15%;
+  float : left;
+  margin-right: 30px;
+}
+
+.skill-pic2{
+  width : 15%;
+  float : right;
+  margin-left: 30px;
+  border-radius:0%;
+}
+
+.profile-pic{
+  width: 160px;
+  height : 160px;
+  border-radius: 50%;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.footer-link{
+  color:#11999E;
+}
+
+.contact-msg{
+  width : auto;
+  margin : 10px auto;
+  text-align : center;
+  background-color :#377878;
+  padding: 10px 20px 10px 20px;
+  color: #F9F9F9;
+}
+
+.contact-details{
+  display: flex;
+  width : 80%;
+  text-align: left;
+  padding-left : 10px;
+  line-height:2;
+  font-size: 14px;
+}
+
+.fa-envelope{
+  color:#377878;
+}
+
+.fa-phone{
+  color:#377878;
+}
+
+.fa-linkedin{
+  color:#377878;
+}
+
+.icons{
+  text-decoration: none;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color : #11999E;
+
+}
+
+/* .icons_xx {
+  text-decoration: none;
+  border-bottom: none;
+  /* position: relative; */
+  /* text-align: left;}
+
+  .icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    /* display: inline-block; */
+    /* font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    text-transform: none !important;
+    font-family: 'Font Awesome 5 Free'; */
+    /* font-weight: 400; }  */
+
+  /* .icon > .label {
+    display: none; }
+  .icon:before {
+    line-height: inherit; }
+  .icon.solid:before {
+    font-weight: 900; }
+  .icon.brands:before {
+    font-family: 'Font Awesome 5 Brands'; }
+ */
+
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7895B2;
+  text-decoration: none;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: .75rem;
+  padding : 20px 0px;
+}
+
+.wrapper{
+  display : flex;
+  /* width:70%; */
+  /* margin : 50px auto;
+  text-align: left */
+}
+
+.others{
+  width : 50%;
+  line-height: 2;
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+
+.ul{
+  padding-left: 10px;
+}
+
+
+.remove_button_css {
+  outline: none;
+  padding: 5px;
+  border: 0px;
+  box-sizing: none;
+  background-color: transparent;
+}
+
+.remove_button_css:focus,
+.remove_button_css:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+
+
+body{
+  color: #40514E;
+  text-align : center;
+
+  font-family : "Merriweather", serif;
+}
+
+a{
+  color : #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin :10px 0 0 0;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #11999E;
+}
+
+h1{
+  display : block;
+  margin : 0 auto 0 auto;
+  font-size: 4rem;
+  color:#66BFBF;
+  /*font-family: 'Sacramento', cursive;*/
+  font-family: 'Allura', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:#66BFBF;
+  font-size: 2.5rem;
+  font-weight:normal;
+  padding-bottom: 10px;
+  padding-top : 10px;
+  margin : 10px auto 10px 10px ;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color : #11999E;
+  font-size: 1.17em;
+
+}
+
+p{
+  line-height: 2;
+
+}
+
+hr{
+  border : dotted #EAF6F6 6px;
+  border-bottom : none;
+  width : 5%;
+  margin : 15px auto =15px auto;
+}
